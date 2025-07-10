@@ -36,7 +36,7 @@ O principal objetivo deste projeto era solidificar meus conhecimentos em desenvo
     -   `cors` (para Cross-Origin Resource Sharing)
     -   `node-fetch` (para requisições HTTP)
 -   **Inteligência Artificial:**
-    -   `Google Gemini API` (`gemini-2.0-flash` model)
+    -   `Google Gemini API` (`gemini-2.5-flash` model)
 
 ## 🙏 Agradecimentos
 
