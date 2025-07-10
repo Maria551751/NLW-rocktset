@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <header>
+    <img src="./assets/logo.png" alt="Logo Esports nlw"/>
+    </header>
+
+    <main>
+     <section>
+        <div> 
+
+      <h2 class="title"> Assistente de Meta</h2>
+      <p>Pergunte sobre estratégias, builds e dicas para seus jogos!</p>
+       
+
+      <form id="form">
+        <input id="apiKey" type="password" placeholder="Informe a API KEY do Gemini" required autocomplete="current-password">
+         
+
+        <select id="gameSelect">
+        <option value="">Selecionar um jogo</option>
+        <option value="valorant">Valorant</option>
+        <option value="lol">Legue of legends</option>
+        <option value="cs">/CS:GO></option>
+        <option value="apex">Apex Legends</option>
+        <option value="overwatch">Overwatch 2</option>
+        <option value="overwatch">Overwatch 2</option>
+        <option value="dota2">Dota 2</option>
+        <option value="minecraft">Minecraft</option>
+        <option value="roblox">Roblox</option>
+        <option value="genshin">Genshin Impact</option>
+        <option value="cod">Call of Duty</option>
+        <option value="rocketleague">Rocket League</option>
+        <option value="eldenring">Elden Ring</option>
+        <option value="gta5">Grand Theft Auto V</option>
+        <option value="r6s">Rainbow Six Siege</option>
+    
+        </select>
+        
+        <input id="questionInput" type="text" placeholder="EX: Melhor build para ADC..." required>
+        <button id ="askButton">Perguntar</button>
+
+
+      </form>
+
+      <div id="aiResponse" class="hidden" >
+        <div class="response-content">
+
+                 </div>
+             </div>
+         </div>
+    </section>
+  </main>
+  <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+
+</html>
